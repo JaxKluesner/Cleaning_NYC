@@ -11,6 +11,7 @@ from datetime import datetime
 # alabama_data_descending = alabama_data_descending.reset_index(drop=True)
 # print(alabama_data_descending)
 
+# Various things setting up basic dataframe.
 df = pd.read_csv(r'C:\Users\Suno\Downloads\URBAN_PARK_RANGER_ANIMAL_CONDITION_RESPONSE.csv')
 pd.set_option('display.max_rows', None)
 pd.set_option('display.max_columns', None)
